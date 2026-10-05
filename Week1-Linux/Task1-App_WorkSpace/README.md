@@ -1,4 +1,4 @@
-# Linux Fundamentals & Shell Practice
+# Task 1 - Linux Fundamentals & Shell Practice
 
 ## 📁 File Structure
 
