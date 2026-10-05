@@ -1,0 +1,5 @@
+/home/rishi/DevOps-Winter-Arc/Week1-Linux/Task1-App_WorkSpace/logs/error.log:1:2026-10-05 10:02:03 ERROR Database connection timeout
+/home/rishi/DevOps-Winter-Arc/Week1-Linux/Task1-App_WorkSpace/logs/error.log:2:2026-10-05 10:03:22 ERROR Redis connection failed
+/home/rishi/DevOps-Winter-Arc/Week1-Linux/Task1-App_WorkSpace/logs/error.log:3:2026-10-05 10:04:01 ERROR HTTP 500 Internal Server Error
+/home/rishi/DevOps-Winter-Arc/Week1-Linux/Task1-App_WorkSpace/logs/app.log:3:2026-10-05 10:02:03 ERROR Database connection timeout
+/home/rishi/DevOps-Winter-Arc/Week1-Linux/Task1-App_WorkSpace/logs/app.log:5:2026-10-05 10:03:22 ERROR Redis connection failed

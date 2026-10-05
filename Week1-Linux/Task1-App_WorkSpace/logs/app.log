@@ -1,0 +1,5 @@
+2026-10-05 10:01:12 INFO  Application started
+2026-10-05 10:01:15 INFO  Database connected
+2026-10-05 10:02:03 ERROR Database connection timeout
+2026-10-05 10:02:10 INFO  Retry successful
+2026-10-05 10:03:22 ERROR Redis connection failed
