@@ -1,0 +1,75 @@
+=== Disk Usage ===
+Filesystem                                                     Size  Used Avail Use% Mounted on
+none                                                           3.9G     0  3.9G   0% /usr/lib/modules/6.18.40.1-microsoft-standard-WSL2
+none                                                           3.9G   23M  3.8G   1% /mnt/wsl
+none                                                           3.9G  512K  3.9G   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/loop0                                                     762M  762M     0 100% /mnt/wsl/docker-desktop/cli-tools
+drivers                                                        285G  106G  180G  37% /usr/lib/wsl/drivers
+/dev/sdf                                                      1007G  2.0G  954G   1% /
+none                                                           3.9G   60K  3.9G   1% /mnt/wslg
+none                                                           3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs                                                         3.8G  3.3M  3.8G   1% /init
+none                                                           3.9G   23M  3.8G   1% /run
+none                                                           3.9G     0  3.9G   0% /run/lock
+none                                                           3.9G     0  3.9G   0% /run/shm
+none                                                           3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none                                                           3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\                                                            285G  106G  180G  37% /mnt/c
+D:\                                                            191G   19G  173G  10% /mnt/d
+tmpfs                                                          3.9G     0  3.9G   0% /tmp
+none                                                           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none                                                           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none                                                           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs                                                          779M   12K  779M   1% /run/user/1000
+tmpfs                                                          779M   12K  779M   1% /run/user/0
+C:\Users\Rishi\AppData\Local\Programs\DockerDesktop\resources  285G  106G  180G  37% /Docker/host
+/dev/loop2                                                     104M  152K   95M   1% /mnt/devops-lab
+
+=== Inode Usage ===
+Filesystem                                                      Inodes   IUsed    IFree IUse% Mounted on
+none                                                            996797       5   996792    1% /usr/lib/modules/6.18.40.1-microsoft-standard-WSL2
+none                                                            996797      11   996786    1% /mnt/wsl
+none                                                            996797      71   996726    1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/loop0                                                           0       0        0     - /mnt/wsl/docker-desktop/cli-tools
+drivers                                                            999 -999001  1000000     - /usr/lib/wsl/drivers
+/dev/sdf                                                      67108864   48811 67060053    1% /
+none                                                            996797      24   996773    1% /mnt/wslg
+none                                                            996797       5   996792    1% /usr/lib/wsl/lib
+rootfs                                                          995689      12   995677    1% /init
+none                                                            996797     627   996170    1% /run
+none                                                            996797       2   996795    1% /run/lock
+none                                                            996797       1   996796    1% /run/shm
+none                                                            996797      53   996744    1% /mnt/wslg/versions.txt
+none                                                            996797      53   996744    1% /mnt/wslg/doc
+C:\                                                                999 -999001  1000000     - /mnt/c
+D:\                                                                999 -999001  1000000     - /mnt/d
+tmpfs                                                          1048576       9  1048567    1% /tmp
+none                                                              1024       1     1023    1% /run/credentials/systemd-journald.service
+none                                                              1024       1     1023    1% /run/credentials/systemd-resolved.service
+none                                                              1024       1     1023    1% /run/credentials/getty@tty1.service
+tmpfs                                                           199359      44   199315    1% /run/user/1000
+tmpfs                                                           199359      45   199314    1% /run/user/0
+C:\Users\Rishi\AppData\Local\Programs\DockerDesktop\resources      999 -999001  1000000     - /Docker/host
+/dev/loop2                                                       32768      12    32756    1% /mnt/devops-lab
+
+=== Memory Usage ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       831Mi       6.4Gi        49Mi       650Mi       6.8Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+=== Block Devices ===
+NAME  MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0   7:0    0   761M  1 loop /mnt/wsl/docker-desktop/cli-tools
+loop1   7:1    0 746.4M  1 loop 
+loop2   7:2    0   128M  0 loop /mnt/devops-lab
+sda     8:0    0 722.9M  1 disk 
+sdb     8:16   0  96.5M  1 disk 
+sdc     8:32   0     2G  0 disk [SWAP]
+sdd     8:48   0   140M  0 disk 
+sde     8:64   0     1T  0 disk 
+sdf     8:80   0     1T  0 disk /mnt/wslg/distro
+                                /
+
+=== Largest Items in Practice Disk ===
+16K	/mnt/devops-lab/lost+found
+20K	/mnt/devops-lab
