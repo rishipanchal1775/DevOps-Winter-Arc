@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: day43-web
+  namespace: default
+spec:
+  type: ClusterIP
+  selector:
+    app: day43-web
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
