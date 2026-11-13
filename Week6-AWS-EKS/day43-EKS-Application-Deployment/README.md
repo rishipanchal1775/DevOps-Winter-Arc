@@ -53,6 +53,8 @@ For this practical:
 
 ### Architecture
 
+![Day 43 – AWS EKS Application Deployment](EKSDeployment.png)
+
 ```text
                  Ubuntu WSL2
                       |
