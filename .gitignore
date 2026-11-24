@@ -1,1 +1,8 @@
 Week5-Integration-Project/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+*.tfvars
+!example.tfvars
